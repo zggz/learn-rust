@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [workspace]
-members = ["wasm"]
+members = ["r-wasm"]
 
 [dependencies]
-wasm = { version = "0.1.0", path = "wasm" }
+
