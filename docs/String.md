@@ -1,0 +1,11 @@
+
+- clone
+- split
+- collect
+- to_owned
+- repeat
+- to_string
+- trim
+- to_uppercase
+- split_whitespace
+- into
