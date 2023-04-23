@@ -9,4 +9,4 @@ edition = "2021"
 members = ["r-wasm"]
 
 [dependencies]
-
+rand = "0.8.5"
