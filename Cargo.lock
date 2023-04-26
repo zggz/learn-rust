@@ -81,7 +81,6 @@ dependencies = [
 name = "r-wasm"
 version = "0.1.0"
 dependencies = [
- "rand",
  "wasm-bindgen",
 ]
 
