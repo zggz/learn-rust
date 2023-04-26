@@ -1,14 +1,13 @@
 // use learn_rust::guess_game;
 
 fn main() {
-    // guess_game::start_game();
-    let n = fibonacci(5);
-    println!("{}", n)
-}
+    let slice = ['l', 'o', 'r', 'e', 'm'];
+    let iter = slice.chunks(2);
+    // let string: str = "banana";
+    let arr = [1,2,3,4];
+    let arr_s = arr.as_slice();
 
-fn fibonacci(n: i32) -> i32 {
-    match n {
-        i if i < 2 => n,
-        _ => fibonacci(n - 1) + fibonacci(n - 2)
+    for i in iter {
+        println!("{:?}", i)
     }
 }
