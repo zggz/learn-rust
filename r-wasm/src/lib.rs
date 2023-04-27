@@ -1,3 +1,5 @@
+mod utils;
+
 use wasm_bindgen::prelude::*;
 use std::fmt;
 use std::fmt::Formatter;

@@ -2,7 +2,7 @@ use std::fs;
 use std::io::{BufRead, BufReader, Write};
 use std::net::{TcpListener, TcpStream};
 
-fn handle_web() {
+pub fn handle_web() {
     let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
 
     for stream in listener.incoming() {
@@ -13,7 +13,7 @@ fn handle_web() {
 
 fn handle_connection(mut stream: TcpStream) {
     let buf_reader = BufReader::new(&mut stream);
-    let request_line = buf_reader.lines().next().unwrap().unwrap();
+    let _request_line = buf_reader.lines().next().unwrap().unwrap();
     // --snip--
     // let (status_line, filename) = if request_line == "GET / HTTP/1.1" {
     //     ("HTTP/1.1 200 OK", "../www/index.html")
