@@ -8,8 +8,13 @@
 - 运行指定项目
 ```shell
 # 指定运行 r-wasm 项目
- cargo test -p r-wasm
+ cargo run -p r-wasm
 ```
+- crates
+```shell
+cargo run -p minigrep
+```
+
 
 ### bin
 执行指定bin目录
